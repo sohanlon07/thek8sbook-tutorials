@@ -2,6 +2,6 @@ apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
   name: flash
-provisioner: docker.io/hostpath
+provisioner: kubernetes.io/minikube-hostpath
 volumeBindingMode: WaitForFirstConsumer
 allowVolumeExpansion: false

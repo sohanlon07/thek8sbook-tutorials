@@ -8,4 +8,4 @@ spec:
   - name: psa-ctr
     image: nginx
     securityContext:
-      privileged: true
+      privileged: false
